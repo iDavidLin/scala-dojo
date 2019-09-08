@@ -20,3 +20,6 @@ project/plugins/project/
 .ensime_cache
 .ensime
 *.html
+.bloop
+.metals
+
