@@ -9,7 +9,7 @@ scalacOptions ++= Seq(
   "-Ypartial-unification" // allow the compiler to unify type constructors of different arities
 )
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.9"
 lazy val catsVersion = "1.4.0"
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core" % catsVersion,
